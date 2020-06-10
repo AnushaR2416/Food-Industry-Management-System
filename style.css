@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+
+}
+
+body
+{
+    background-image: url(9.jfif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.menubar
+{
+    background: rgb(0,70,0);
+    text-align: center;
+}
+
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menubar ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.active, .menubar ul li:hover
+{
+background: #2bab0d;
+    border-radius: 3px;
+}
+
+
+
+
+
+
